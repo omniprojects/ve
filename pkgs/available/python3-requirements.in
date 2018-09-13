@@ -33,6 +33,7 @@ pyyaml
 raven
 redis
 requests
+rq
 salt
 sendgrid
 stripe

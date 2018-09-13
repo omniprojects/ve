@@ -19,6 +19,7 @@ django_facebook
 djangorestframework
 -e git+https://github.com/omniprojects/drf-extensions#egg=drf-extensions
 -e git+https://github.com/omniprojects/drf-tracking#egg=drf-tracking markdown
+mako
 mixpanel
 numpy
 phonenumbers
@@ -32,6 +33,7 @@ pyyaml
 raven
 redis
 requests
+salt
 sendgrid
 stripe
 twilio

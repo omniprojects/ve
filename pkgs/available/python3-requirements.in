@@ -3,6 +3,7 @@ PyJWT
 apache-airflow
 algoliasearch
 apns2
+baker
 bcrypt
 boto
 boto3

@@ -1,4 +1,4 @@
-PYTHON_VERSION="3.7.0"
+PYTHON_VERSION="3.6.6"
 
 getpkg http://www.python.org/ftp/python/${PYTHON_VERSION}/Python-${PYTHON_VERSION}.tgz
 tar zxf Python-${PYTHON_VERSION}.tgz
@@ -9,4 +9,5 @@ make install
 
 cd $BUILD_DIR
 
+$VENV/bin/pip3 install -U pip
 $VENV/bin/pip3 install -r ${SCRIPTPATH}/pkgs/available/python3-requirements.txt --src $BUILD_DIR

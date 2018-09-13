@@ -1,1 +1,0 @@
-available/metabase.sh

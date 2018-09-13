@@ -9,5 +9,7 @@ make install
 
 cd $BUILD_DIR
 
+export AIRFLOW_GPL_UNIDECODE=1  # hax for airflow dep license bs
+
 $VENV/bin/pip3 install -U pip
 $VENV/bin/pip3 install -r ${SCRIPTPATH}/pkgs/available/python3-requirements.txt --src $BUILD_DIR

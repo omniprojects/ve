@@ -1,5 +1,6 @@
 Django
 PyJWT
+apache-airflow
 algoliasearch
 apns2
 bcrypt
@@ -37,7 +38,8 @@ rq
 salt
 sendgrid
 stripe
+supervisor
+supervisor-wildcards
 twilio
 unittest-xml-reporting
 virtualenv
-zappa

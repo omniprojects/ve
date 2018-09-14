@@ -20,7 +20,8 @@ django-storages
 django_facebook
 djangorestframework
 -e git+https://github.com/omniprojects/drf-extensions#egg=drf-extensions
--e git+https://github.com/omniprojects/drf-tracking#egg=drf-tracking markdown
+-e git+https://github.com/omniprojects/drf-tracking#egg=drf-tracking
+-e git+https://github.com/supervisor/Supervisor#egg=supervisor
 mako
 mixpanel
 numpy
@@ -39,8 +40,6 @@ rq
 salt
 sendgrid
 stripe
-supervisor
-supervisor-wildcards
 twilio
 unittest-xml-reporting
 virtualenv

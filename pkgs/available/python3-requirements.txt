@@ -21,7 +21,7 @@ boto3==1.9.4
 boto==2.49.0
 botocore==1.12.4          # via boto3, s3transfer
 certifi==2018.8.24        # via python-intercom, requests
-cffi==1.11.5              # via bcrypt, cryptography
+cffi==1.11.5              # via bcrypt, cryptography, pynacl
 chardet==3.0.4            # via requests
 click==6.7                # via flask, flask-appbuilder, pip-tools, rq
 colorama==0.3.9           # via flask-appbuilder
@@ -97,6 +97,7 @@ pycparser==2.18           # via cffi
 pycrypto==2.6.1           # via salt
 pygments==2.2.0
 pyjwt==1.6.4
+pynacl==1.2.1
 pysocks==1.6.8            # via twilio
 python-daemon==2.1.2      # via apache-airflow
 python-dateutil==2.7.3
@@ -118,7 +119,7 @@ s3transfer==0.1.13        # via boto3
 salt==2018.3.2
 sendgrid==5.6.0
 setproctitle==1.1.10      # via apache-airflow
-six==1.11.0               # via bcrypt, bleach, cryptography, html5lib, mixpanel, pip-tools, python-dateutil, python-intercom, tenacity, thrift, twilio, unittest-xml-reporting
+six==1.11.0               # via bcrypt, bleach, cryptography, html5lib, mixpanel, pip-tools, pynacl, python-dateutil, python-intercom, tenacity, thrift, twilio, unittest-xml-reporting
 smmap2==2.0.4             # via gitdb2
 sqlalchemy==1.1.18        # via alembic, apache-airflow, flask-sqlalchemy
 sqlparse==0.2.4           # via django-silk

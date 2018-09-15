@@ -29,6 +29,7 @@ phonenumbers
 pip-tools
 psycopg2-binary
 pygments
+pynacl
 python-dateutil
 python-intercom
 pytz

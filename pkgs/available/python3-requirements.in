@@ -23,6 +23,7 @@ djangorestframework
 -e git+https://github.com/omniprojects/drf-tracking#egg=drf-tracking
 -e git+https://github.com/supervisor/Supervisor#egg=supervisor
 gevent
+google-api-python-client
 gsutil
 mako
 mixpanel

@@ -100,6 +100,7 @@ pycrypto==2.6.1           # via salt
 pygments==2.2.0
 pyjwt==1.6.4
 pynacl==1.2.1
+pynsq==0.8.2
 pysocks==1.6.8            # via twilio
 python-daemon==2.1.2      # via apache-airflow
 python-dateutil==2.7.3
@@ -129,7 +130,7 @@ stripe==2.8.1
 tabulate==0.7.7           # via apache-airflow
 tenacity==4.8.0           # via apache-airflow
 thrift==0.11.0            # via apache-airflow
-tornado==4.5.3            # via salt
+tornado==4.5.3            # via pynsq, salt
 twilio==6.16.4
 tzlocal==1.5.1            # via apache-airflow, pendulum
 unicodecsv==0.14.1        # via apache-airflow

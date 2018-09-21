@@ -31,6 +31,7 @@ pip-tools
 psycopg2-binary
 pygments
 pynacl
+pynsq
 python-dateutil
 python-intercom
 pytz

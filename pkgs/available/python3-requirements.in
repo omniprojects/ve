@@ -1,3 +1,4 @@
+awscli
 Django
 PyJWT
 apache-airflow
@@ -28,6 +29,7 @@ gsutil
 mako
 mixpanel
 numpy
+oauth2client
 phonenumbers
 pip-tools
 psycopg2-binary

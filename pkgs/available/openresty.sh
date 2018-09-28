@@ -48,4 +48,4 @@ PATH=$VENV/opt/openresty/bin:$PATH
 $VENV/opt/openresty/bin/opm get pintsized/lua-resty-http
 $VENV/opt/openresty/bin/opm get bungle/lua-resty-session
 $VENV/opt/openresty/bin/opm get pronan/lua-resty-datetime
-$VENV/opt/openresty/bin/opm get brimworks/lua-zlib
+$VENV/opt/openresty/bin/opm get hamishforbes/lua-ffi-zlib

@@ -47,7 +47,9 @@ requests
 rq
 salt
 sendgrid
+slacker
 stripe
 twilio
 unittest-xml-reporting
 virtualenv
+websocket

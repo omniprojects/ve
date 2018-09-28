@@ -52,4 +52,4 @@ stripe
 twilio
 unittest-xml-reporting
 virtualenv
-websocket
+websocket-client

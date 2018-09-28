@@ -75,7 +75,7 @@ google-auth-httplib2==0.0.3  # via google-api-python-client
 google-auth==1.5.1        # via google-api-python-client, google-auth-httplib2
 google-reauth==0.1.0      # via gcs-oauth2-boto-plugin, gsutil
 gprof2dot==2016.10.13     # via django-silk
-greenlet==0.4.15          # via gevent, websocket
+greenlet==0.4.15          # via gevent
 gsutil==4.34
 gunicorn==19.9.0          # via apache-airflow
 h2==2.6.2                 # via hyper
@@ -147,7 +147,7 @@ s3transfer==0.1.13        # via awscli, boto3
 salt==2018.3.2
 sendgrid==5.6.0
 setproctitle==1.1.10      # via apache-airflow
-six==1.11.0               # via bcrypt, bleach, cryptography, fasteners, gcs-oauth2-boto-plugin, google-api-python-client, google-apitools, google-auth, gsutil, html5lib, mixpanel, mock, oauth2client, pip-tools, pynacl, pyopenssl, python-dateutil, python-intercom, pyu2f, tenacity, thrift, twilio, unittest-xml-reporting
+six==1.11.0               # via bcrypt, bleach, cryptography, fasteners, gcs-oauth2-boto-plugin, google-api-python-client, google-apitools, google-auth, gsutil, html5lib, mixpanel, mock, oauth2client, pip-tools, pynacl, pyopenssl, python-dateutil, python-intercom, pyu2f, tenacity, thrift, twilio, unittest-xml-reporting, websocket-client
 slacker==0.9.65
 smmap2==2.0.4             # via gitdb2
 socksipy-branch==1.01     # via gcs-oauth2-boto-plugin, gsutil
@@ -167,7 +167,7 @@ uritemplate==3.0.0        # via coreapi, google-api-python-client
 urllib3==1.23             # via botocore, requests
 virtualenv==16.0.0
 webencodings==0.5.1       # via html5lib
-websocket==0.2.1
+websocket-client==0.53.0
 werkzeug==0.14.1          # via apache-airflow, flask, flask-caching
 wtforms==2.2.1            # via flask-admin, flask-wtf
 zope.deprecation==4.3.0   # via apache-airflow

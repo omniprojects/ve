@@ -1,7 +1,7 @@
 #NSQ_VERSION="1.0.0-compat"
 #
 #NSQ_PLATFORM="linux"
-#if [ "$MOS" == "OSX" ]; then
+#if [ "$MOS" == "MacOS" ]; then
 #NSQ_PLATFORM="darwin"
 #fi
 #

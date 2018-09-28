@@ -4,7 +4,7 @@ getpkg http://www.python.org/ftp/python/${PYTHON_VERSION}/Python-${PYTHON_VERSIO
 tar zxf Python-${PYTHON_VERSION}.tgz
 cd Python-${PYTHON_VERSION}
 CONFIGURE_OPTS="--enable-shared --with-system-expat --enable-optimizaations"
-if [ "$MOS" != "OSX" ]; then
+if [ "$MOS" != "MacOS" ]; then
 CONFIGURE_OPTS="$CONFIGURE_OPTS --enable-unicode=ucs4"
 fi
 ./configure --prefix=$VENV $CONFIGURE_OPTS

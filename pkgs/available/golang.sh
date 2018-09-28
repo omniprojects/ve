@@ -1,6 +1,6 @@
 GOLANG_VERSION="1.9.2"
 GOLANG_KERNEL="linux"
-if [ "$MOS" == "OSX" ]; then
+if [ "$MOS" == "MacOS" ]; then
 GOLANG_KERNEL="darwin"
 fi
 

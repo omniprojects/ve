@@ -15,7 +15,7 @@ sudo rm -fR $VENV
 elif [ "$1" == "--realclean" ]; then
 shift
 sudo rm -fR $VENV $PKG_CACHE /data
-if [ "$MOS" == "OSX" ]; then
+if [ "$MOS" == "MacOS" ]; then
 rm -fR ~/Library/Caches/pip
 fi
 else
@@ -76,7 +76,7 @@ sudo ldconfig
 fi
 
 echo "System Link Report:"
-if [ "$MOS" == "OSX" ]; then
+if [ "$MOS" == "MacOS" ]; then
 otool -L $(/usr/bin/file $(find /ove -type f | egrep '/s*bin/') | grep 'executable x86_64' | awk -F : '{print $1}') | egrep -v ':$' | sort | uniq -c | sort -k1n
 else
 ldd $(/usr/bin/file $(find /ove -type f | egrep '/s*bin/') | grep 'dynamically linked' | awk -F : '{print $1}') | grep '=>' | awk '{print $1, $2, $3}' | sort | uniq -c | sort -k1n

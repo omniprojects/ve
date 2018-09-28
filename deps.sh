@@ -8,7 +8,7 @@ popd > /dev/null
 
 source $SCRIPTPATH/config.sh
 
-if [ "$MOS" == "OSX" ]; then
+if [ "$MOS" == "MacOS" ]; then
 
 source $SCRIPTPATH/os/osx/brew.sh
 

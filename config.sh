@@ -12,23 +12,19 @@ ARCH="$(uname -m | sed -e 's/i686/i386/g')"
 MARCH="$(uname -m)"
 
 if [ "$(uname)" == "Darwin" ];then
-    OS="OSX_10.X"
-    MOS="OSX"
+    MOS="MacOS"
     PROCS="$(sysctl -n hw.ncpu)"
-elif [ -f /etc/pacman.conf ]; then
-    OS="Arch"
-    MOS="Arch"
-    PROCS=$(grep -c '^processor' /proc/cpuinfo)
 elif [ "$(lsb_release -si)" == "Ubuntu" ]; then
     ver="$(lsb_release -sr)"
     if [ "$ver" != "16.04" ] && [ "$ver" != "18.04" ]; then
         echo "It's recommended to run on an Ubuntu LTS release ($ver)-- do you want to continue?  (Ctrl-C aborts)"
         read foo
     fi
-    OS="Ubuntu_$ver"
     MOS="Ubuntu"
     PROCS=$(grep -c '^processor' /proc/cpuinfo)
 fi
+
+OS="$MOS-$MARCH"
 
 PMAKE="nice -n 10 make -j $PROCS"
 

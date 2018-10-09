@@ -21,6 +21,7 @@ deactivate () {
     unset GOROOT
     unset AIRFLOW_HOME
     unset NODE_PATH
+    unset PYTHONPATH
 
     # This should detect bash and zsh, which have a hash command that must
     # be called to get it to forget past commands.  Without forgetting
@@ -71,6 +72,7 @@ export PATH
 
 export AIRFLOW_HOME="/data/airflow"
 export NODE_PATH="\$VIRTUAL_ENV/lib/node_modules"
+export PYTHONPATH="/omni/om:/omni/om/api:/omni/om/shims"
 
 _OLD_VIRTUAL_PYTHONPATH="\$PYTHONPATH"
 

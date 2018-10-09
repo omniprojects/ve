@@ -12,6 +12,7 @@ coreapi
 django-after-response
 django-autoslug-iplweb
 django-ckeditor
+django-constance
 django-cors-headers
 django-filter
 django-ipware
@@ -24,6 +25,7 @@ djangorestframework
 -e git+https://github.com/omniprojects/drf-tracking#egg=drf-tracking
 -e git+https://github.com/supervisor/Supervisor#egg=supervisor
 geoip2
+geopy
 gevent
 google-api-python-client
 gsutil

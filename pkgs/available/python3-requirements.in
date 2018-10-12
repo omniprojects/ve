@@ -34,8 +34,9 @@ mixpanel
 numpy
 oauth2client
 phonenumbers
+pgpubsub
 pip-tools
-psycopg2-binary
+psycopg2
 pygments
 pynacl
 pynsq

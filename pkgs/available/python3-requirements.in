@@ -51,6 +51,7 @@ requests
 rq
 salt
 sendgrid
+sentry-sdk
 slacker
 stripe
 twilio

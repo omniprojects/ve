@@ -23,7 +23,7 @@ boto3==1.9.4
 boto==2.48.0
 botocore==1.12.8          # via awscli, boto3, s3transfer
 cachetools==2.1.0         # via google-auth
-certifi==2018.8.24        # via python-intercom, requests
+certifi==2018.8.24        # via python-intercom, requests, sentry-sdk
 cffi==1.11.5              # via bcrypt, cryptography, pynacl
 chardet==3.0.4            # via requests
 click==6.7                # via flask, flask-appbuilder, pip-tools, rq
@@ -151,6 +151,7 @@ rsa==3.4.2                # via awscli, google-auth, oauth2client
 s3transfer==0.1.13        # via awscli, boto3
 salt==2018.3.2
 sendgrid==5.6.0
+sentry-sdk==0.4.1
 setproctitle==1.1.10      # via apache-airflow
 six==1.11.0               # via bcrypt, bleach, cryptography, fasteners, freezegun, gcs-oauth2-boto-plugin, google-api-python-client, google-apitools, google-auth, gsutil, html5lib, mixpanel, mock, oauth2client, pip-tools, pynacl, pyopenssl, python-dateutil, python-intercom, pyu2f, tenacity, thrift, twilio, unittest-xml-reporting, websocket-client
 slacker==0.9.65
@@ -169,7 +170,7 @@ unicodecsv==0.14.1        # via apache-airflow
 unidecode==1.0.22         # via django-facebook, python-slugify
 unittest-xml-reporting==2.2.0
 uritemplate==3.0.0        # via coreapi, google-api-python-client
-urllib3==1.23             # via botocore, requests
+urllib3==1.23             # via botocore, requests, sentry-sdk
 virtualenv==16.0.0
 webencodings==0.5.1       # via html5lib
 websocket-client==0.53.0

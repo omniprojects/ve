@@ -10,7 +10,7 @@ sed -i -e 's:DEFAULT_PGSOCKET_DIR[ ][ ]*"/tmp":DEFAULT_PGSOCKET_DIR "/data/run/p
 $PMAKE
 make install
 
-PGEXTS="fuzzystrmatch hstore intarray pg_trgm tablefunc unaccent uuid-ossp"
+PGEXTS="fuzzystrmatch hstore intarray pg_trgm tablefunc unaccent uuid-ossp citext"
 
 for ext in $PGEXTS; do
 cd contrib/$ext

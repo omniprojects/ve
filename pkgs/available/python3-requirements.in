@@ -5,6 +5,7 @@ apache-airflow
 algoliasearch
 apns2
 baker
+barcode
 bcrypt
 boto
 boto3
@@ -43,9 +44,10 @@ pynacl
 pynsq
 python-dateutil
 python-intercom
+python-Levenshtein
 pytz
 pyyaml
-raven
+qrcode[pil]
 redis
 requests
 rq
@@ -58,3 +60,4 @@ twilio
 unittest-xml-reporting
 virtualenv
 websocket-client
+WeasyPrint

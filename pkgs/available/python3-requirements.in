@@ -48,6 +48,7 @@ python-Levenshtein
 pytz
 pyyaml
 qrcode[pil]
+raven
 redis
 requests
 rq

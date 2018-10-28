@@ -5,7 +5,6 @@ apache-airflow
 algoliasearch
 apns2
 baker
-barcode
 bcrypt
 boto
 boto3
@@ -42,6 +41,7 @@ psycopg2
 pygments
 pynacl
 pynsq
+python-barcode
 python-dateutil
 python-intercom
 python-Levenshtein

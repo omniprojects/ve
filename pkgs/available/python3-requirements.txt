@@ -30,6 +30,7 @@ cffi==1.11.5              # via bcrypt, cairocffi, cryptography, pynacl, weasypr
 chardet==3.0.4            # via requests
 click==6.7                # via flask, flask-appbuilder, pip-tools, rq
 colorama==0.3.9           # via awscli, flask-appbuilder
+colorclass==2.2.0         # via linode-cli
 configparser==3.5.0       # via apache-airflow
 coreapi==2.3.3
 coreschema==0.0.4         # via coreapi
@@ -54,6 +55,7 @@ django-storages==1.7.1
 django==2.1.1
 djangorestframework==3.8.2
 docutils==0.14            # via awscli, botocore, python-daemon
+enum34==1.1.6             # via linode-cli
 fasteners==0.14.1         # via google-apitools, gsutil
 first==2.0.1              # via pip-tools
 flask-admin==1.4.1        # via apache-airflow
@@ -98,7 +100,7 @@ itsdangerous==0.24        # via flask
 itypes==1.1.0             # via coreapi
 jinja2==2.8.1             # via apache-airflow, coreschema, django-silk, flask, flask-babel, python-nvd3, salt
 jmespath==0.9.3           # via boto3, botocore
-linode==0.4
+linode-cli==2.0.10
 lockfile==0.12.2          # via python-daemon
 lxml==3.8.0               # via apache-airflow
 mako==1.0.7
@@ -172,6 +174,7 @@ sqlparse==0.2.4           # via django-silk
 stripe==2.8.1
 tabulate==0.7.7           # via apache-airflow
 tenacity==4.8.0           # via apache-airflow
+terminaltables==3.1.0     # via linode-cli
 thrift==0.11.0            # via apache-airflow
 tinycss2==0.6.1           # via cairosvg, cssselect2, weasyprint
 tornado==4.5.3            # via pynsq, salt

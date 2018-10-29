@@ -30,7 +30,7 @@ geopy
 gevent
 google-api-python-client
 gsutil
-linode
+linode-cli
 mako
 mixpanel
 numpy

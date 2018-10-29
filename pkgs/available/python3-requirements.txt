@@ -98,6 +98,7 @@ itsdangerous==0.24        # via flask
 itypes==1.1.0             # via coreapi
 jinja2==2.8.1             # via apache-airflow, coreschema, django-silk, flask, flask-babel, python-nvd3, salt
 jmespath==0.9.3           # via boto3, botocore
+linode==0.4
 lockfile==0.12.2          # via python-daemon
 lxml==3.8.0               # via apache-airflow
 mako==1.0.7

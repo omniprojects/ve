@@ -55,6 +55,8 @@ zip \
 libatlas-base-dev \
 libbz2-dev \
 libcairo2-dev \
+libcups2 \
+libcups2-dev \
 libcurl4-openssl-dev \
 libevent-dev \
 libffi-dev \

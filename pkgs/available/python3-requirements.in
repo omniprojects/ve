@@ -39,6 +39,7 @@ phonenumbers
 pgpubsub
 pip-tools
 psycopg2
+pycups
 pygments
 pynacl
 pynsq

@@ -130,6 +130,7 @@ pyasn1==0.4.4             # via oauth2client, pyasn1-modules, rsa
 pycodestyle==2.4.0        # via autopep8
 pycparser==2.18           # via cffi
 pycrypto==2.6.1           # via salt
+pycups==1.9.74
 pygments==2.2.0
 pyjwt==1.6.4
 pynacl==1.2.1

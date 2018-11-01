@@ -29,7 +29,6 @@ geoip2
 geopy
 gevent
 google-api-python-client
-gsutil
 linode-cli
 mako
 mixpanel

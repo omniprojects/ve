@@ -14,6 +14,7 @@ BREW="sudo -i -u $BREW_USER $BREW"
 fi
 
 sudo xcodebuild -license accept || true
+sudo xcode-select --install || true
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer || true
 
 $BREW update

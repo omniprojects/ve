@@ -30,19 +30,21 @@ PMAKE="nice -n 10 make -j $PROCS"
 
 function getpkg() {
     URL=$1
-    DST=$2
-    if [ "$DST" == "" ]; then
-        DST=$BUILD_DIR
-    fi
-
     FILENAME=$(basename "$URL")
 
     mkdir -p $PKG_CACHE
 
-    if [ ! -f "$PKG_CACHE/$FILENAME" ]; then
-        curl -s -L --retry 2 --retry-delay 10 -o "$PKG_CACHE/$FILENAME" $URL
+    ETAG=$(curl -s -L --retry 2 --retry-delay 10 --head $URL | egrep -i '^etag:' | awk -F : '{print $2}' | tr -d '" \t\r\n$')
+
+    if [ ! -f "$PKG_CACHE/$FILENAME-$ETAG" ]; then
+        curl -s -L --retry 2 --retry-delay 10 -o "$PKG_CACHE/$FILENAME-$ETAG" $URL
     fi
-    cp "$PKG_CACHE/$FILENAME" $DST
+
+    cp "$PKG_CACHE/$FILENAME-$ETAG" $BUILD_DIR/$FILENAME
+
+    if [ "$ETAG" == "" ]; then
+        rm "$PKG_CACHE/$FILENAME-$ETAG"
+    fi
 }
 
 # might want to override these in config_local.sh

@@ -34,6 +34,7 @@ mako
 mixpanel
 numpy
 oauth2client
+opencv-python
 phonenumbers
 pgpubsub
 pip-tools

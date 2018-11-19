@@ -24,11 +24,15 @@ djangorestframework
 -e git+https://github.com/omniprojects/drf-extensions#egg=drf-extensions
 -e git+https://github.com/omniprojects/drf-tracking#egg=drf-tracking
 -e git+https://github.com/supervisor/Supervisor#egg=supervisor
+flask
+flask_graphql
+flask_mako
 freezegun
 geoip2
 geopy
 gevent
 google-api-python-client
+graphene
 linode-cli
 mako
 mixpanel

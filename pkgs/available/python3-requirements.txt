@@ -137,7 +137,6 @@ pynacl==1.2.1
 pynsq==0.8.2
 pyphen==0.9.5             # via weasyprint
 pysocks==1.6.8            # via twilio
-python-barcode==0.9.0
 python-daemon==2.1.2      # via apache-airflow
 python-dateutil==2.7.3
 python-editor==1.0.3      # via alembic

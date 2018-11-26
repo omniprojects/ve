@@ -56,6 +56,7 @@ make \
 ncurses \
 openssl \
 ossp-uuid \
+pango \
 pcre \
 pixman \
 pkgconfig \

@@ -64,6 +64,7 @@ libfreetype6-dev \
 libicu-dev \
 libjpeg-dev \
 libncurses5-dev \
+libpango-1.0.0 \
 libpcap-dev \
 libpcre3-dev \
 libperl-dev \

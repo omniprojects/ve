@@ -25,6 +25,7 @@ djangorestframework
 -e git+https://github.com/omniprojects/drf-tracking#egg=drf-tracking
 -e git+https://github.com/supervisor/Supervisor#egg=supervisor
 flask
+flask-cors
 flask_graphql
 flask_mako
 freezegun

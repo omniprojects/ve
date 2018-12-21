@@ -32,6 +32,7 @@ freezegun
 geoip2
 geopy
 gevent
+gnsq
 google-api-python-client
 graphene
 linode-cli

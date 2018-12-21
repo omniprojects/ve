@@ -138,7 +138,6 @@ pycups==1.9.74
 pygments==2.2.0
 pyjwt==1.6.4
 pynacl==1.2.1
-pynsq==0.8.2
 pyphen==0.9.5             # via weasyprint
 pysocks==1.6.8            # via twilio
 python-crfsuite==0.9.6    # via usaddress
@@ -178,7 +177,7 @@ tenacity==4.8.0           # via apache-airflow
 terminaltables==3.1.0     # via linode-cli
 thrift==0.11.0            # via apache-airflow
 tinycss2==0.6.1           # via cairosvg, cssselect2, weasyprint
-tornado==4.5.3            # via pynsq, salt
+tornado==4.5.3            # via salt
 twilio==6.16.4
 tzlocal==1.5.1            # via apache-airflow, pendulum
 unicodecsv==0.14.1        # via apache-airflow

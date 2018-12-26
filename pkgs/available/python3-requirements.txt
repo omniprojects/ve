@@ -164,7 +164,7 @@ rx==1.6.1                 # via graphql-core
 s3transfer==0.1.13        # via awscli, boto3
 salt==2018.3.2
 sendgrid==5.6.0
-sentry-sdk==0.4.1
+sentry-sdk==0.6.5
 setproctitle==1.1.10      # via apache-airflow
 six==1.11.0               # via bcrypt, bleach, cryptography, flask-cors, freezegun, gnsq, google-api-python-client, google-auth, graphene, graphql-core, graphql-relay, html5lib, mixpanel, oauth2client, pip-tools, promise, pynacl, python-dateutil, python-intercom, qrcode, tenacity, thrift, twilio, unittest-xml-reporting, websocket-client
 slacker==0.9.65

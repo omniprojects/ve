@@ -36,7 +36,9 @@ fortune \
 freetype \
 gawk \
 gcc \
+gdal \
 gdbm \
+geom \
 gettext \
 git \
 gnu-sed \
@@ -44,6 +46,7 @@ gnu-tar \
 gzip \
 icu4c \
 jq \
+json-c \
 libevent \
 libffi \
 libjpeg \
@@ -60,6 +63,7 @@ pango \
 pcre \
 pixman \
 pkgconfig \
+proj \
 readline \
 rsync \
 sqlite \

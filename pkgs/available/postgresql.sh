@@ -19,6 +19,8 @@ make install
 cd ../..
 done
 
+cd $BUILD_DIR
+
 POSTGIS_VERSION="2.5.1"
 getpkg https://download.osgeo.org/postgis/source/postgis-${POSTGIS_VERSION}.tar.gz
 tar zxf postgis-${POSTGIS_VERSION}.tar.gz

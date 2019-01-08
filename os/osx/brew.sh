@@ -38,7 +38,7 @@ gawk \
 gcc \
 gdal \
 gdbm \
-geom \
+geos \
 gettext \
 git \
 gnu-sed \

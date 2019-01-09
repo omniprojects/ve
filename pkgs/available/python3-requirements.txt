@@ -180,6 +180,7 @@ tinycss2==0.6.1           # via cairosvg, cssselect2, weasyprint
 tornado==4.5.3            # via salt
 twilio==6.16.4
 tzlocal==1.5.1            # via apache-airflow, pendulum
+ua-parser==0.8.0
 unicodecsv==0.14.1        # via apache-airflow
 unidecode==1.0.22         # via django-facebook, python-slugify
 unittest-xml-reporting==2.2.0

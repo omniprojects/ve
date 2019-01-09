@@ -64,6 +64,7 @@ sentry-sdk
 slacker
 stripe
 twilio
+ua_parser
 unittest-xml-reporting
 usaddress
 virtualenv

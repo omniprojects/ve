@@ -35,6 +35,7 @@ gevent
 gnsq
 google-api-python-client
 graphene
+graphene-file-upload
 linode-cli
 mako
 mixpanel

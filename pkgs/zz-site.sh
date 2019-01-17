@@ -15,3 +15,5 @@ mv go-junit-report $VENV/bin
 # postgres textsearch thesaurus data
 mkdir -p $VENV/share/postgresql/tsearch_data
 cp $SCRIPTPATH/data/postgresql/thesaurus_direct.ths $VENV/share/postgresql/tsearch_data/
+cp $SCRIPTPATH/data/postgresql/en_us.dict $VENV/share/postgresql/tsearch_data/en_us.dict
+cp $SCRIPTPATH/data/postgresql/en_us.affix $VENV/share/postgresql/tsearch_data/en_us.affix

@@ -49,6 +49,7 @@ psycopg2
 pycups
 pygments
 pynacl
+pytest
 python-dateutil
 python-intercom
 python-Levenshtein

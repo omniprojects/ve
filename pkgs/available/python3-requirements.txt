@@ -31,7 +31,7 @@ cairosvg==2.2.1           # via weasyprint
 certifi==2018.8.24        # via python-intercom, requests, sentry-sdk
 cffi==1.11.5              # via bcrypt, cairocffi, cryptography, pynacl, weasyprint
 chardet==3.0.4            # via requests
-click==6.7                # via flask, flask-appbuilder, pip-tools, rq
+click==6.7                # via flask, flask-appbuilder, geocoder, pip-tools, rq
 colorama==0.3.9           # via awscli, flask-appbuilder
 colorclass==2.2.0         # via linode-cli
 configparser==3.5.0       # via apache-airflow
@@ -40,6 +40,7 @@ coreschema==0.0.4         # via coreapi
 croniter==0.3.25          # via apache-airflow
 cryptography==2.3.1       # via apns2
 cssselect2==0.2.1         # via cairosvg, weasyprint
+decorator==4.3.2          # via ratelim
 defusedxml==0.5.0         # via cairosvg, python3-openid
 dill==0.2.8.2             # via apache-airflow
 django-after-response==0.2.2
@@ -73,8 +74,10 @@ flask-swagger==0.2.13     # via apache-airflow
 flask-wtf==0.14.2         # via apache-airflow, flask-appbuilder
 flask==0.12.4
 freezegun==0.3.11
+frozendict==1.2           # via usaddress-scourgify
 funcsigs==1.0.0           # via apache-airflow
-future==0.16.0            # via apache-airflow, usaddress
+future==0.16.0            # via apache-airflow, geocoder, usaddress
+geocoder==1.38.1          # via usaddress-scourgify
 geographiclib==1.49       # via geopy
 geoip2==2.9.0
 geopy==1.17.0
@@ -162,6 +165,7 @@ pytzdata==2018.5          # via pendulum
 pyyaml==3.13
 pyzmq==17.1.2             # via salt
 qrcode[pil]==6.0
+ratelim==0.1.6            # via geocoder
 raven==6.9.0
 redis==2.10.6
 requests==2.19.1
@@ -173,7 +177,7 @@ salt==2018.3.2
 sendgrid==5.6.0
 sentry-sdk==0.6.5
 setproctitle==1.1.10      # via apache-airflow
-six==1.11.0               # via bcrypt, bleach, cryptography, flask-cors, freezegun, gnsq, google-api-python-client, google-auth, graphene, graphene-file-upload, graphql-core, graphql-relay, html5lib, mixpanel, more-itertools, oauth2client, pip-tools, promise, pynacl, pytest, python-dateutil, python-intercom, qrcode, tenacity, thrift, twilio, unittest-xml-reporting, websocket-client
+six==1.11.0               # via bcrypt, bleach, cryptography, flask-cors, freezegun, geocoder, gnsq, google-api-python-client, google-auth, graphene, graphene-file-upload, graphql-core, graphql-relay, html5lib, mixpanel, more-itertools, oauth2client, pip-tools, promise, pynacl, pytest, python-dateutil, python-intercom, qrcode, tenacity, thrift, twilio, unittest-xml-reporting, websocket-client
 slacker==0.9.65
 smmap2==2.0.4             # via gitdb2
 sqlalchemy==1.1.18        # via alembic, apache-airflow, flask-sqlalchemy
@@ -186,6 +190,7 @@ thrift==0.11.0            # via apache-airflow
 tinycss2==0.6.1           # via cairosvg, cssselect2, weasyprint
 tornado==4.5.3            # via salt
 twilio==6.16.4
+typing==3.6.1             # via usaddress-scourgify, yaml-config
 tzlocal==1.5.1            # via apache-airflow, pendulum
 ua-parser==0.8.0
 unicodecsv==0.14.1        # via apache-airflow
@@ -193,11 +198,13 @@ unidecode==1.0.22         # via django-facebook, python-slugify
 unittest-xml-reporting==2.2.0
 uritemplate==3.0.0        # via coreapi, google-api-python-client
 urllib3==1.23             # via botocore, gnsq, requests, sentry-sdk
-usaddress==0.5.10
+usaddress-scourgify==0.1.3
+usaddress==0.5.9
 virtualenv==16.0.0
 weasyprint==0.42.3
 webencodings==0.5.1       # via html5lib, tinycss2
 websocket-client==0.53.0
 werkzeug==0.14.1          # via apache-airflow, flask, flask-caching
 wtforms==2.2.1            # via flask-admin, flask-wtf
+yaml-config==0.1.1        # via usaddress-scourgify
 zope.deprecation==4.3.0   # via apache-airflow

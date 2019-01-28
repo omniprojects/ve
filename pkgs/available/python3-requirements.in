@@ -69,6 +69,7 @@ twilio
 ua_parser
 unittest-xml-reporting
 usaddress
+usaddress-scourgify
 virtualenv
 websocket-client
 WeasyPrint

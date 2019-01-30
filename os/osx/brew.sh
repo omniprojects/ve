@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo chown -R $(id -u):$(id -g) /usr/local/*
+sudo chown -R $(id -u):$(id -g) /usr/local/* || true
 
 if [ "$(which brew)" == "" ]; then
 echo 'Installing homebrew...'

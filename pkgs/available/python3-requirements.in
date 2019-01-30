@@ -35,6 +35,7 @@ gevent
 gnsq
 google-api-python-client
 graphene
+graphene-file-upload
 linode-cli
 mako
 mixpanel
@@ -48,6 +49,7 @@ psycopg2
 pycups
 pygments
 pynacl
+pytest
 python-dateutil
 python-intercom
 python-Levenshtein
@@ -64,8 +66,10 @@ sentry-sdk
 slacker
 stripe
 twilio
+ua_parser
 unittest-xml-reporting
 usaddress
+usaddress-scourgify
 virtualenv
 websocket-client
 WeasyPrint

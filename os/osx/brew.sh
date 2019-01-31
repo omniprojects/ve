@@ -5,7 +5,7 @@ sudo chown -R $(id -u):$(id -g) /usr/local/* || true
 if [ "$(which brew)" == "" ]; then
 echo 'Installing homebrew...'
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-else
+elif [ "$BUILDKITE" == "" ]; then
 echo 'You have an existing Homebrew installation - if this is your first
 bootstrap, I highly recommend you purge homebrew (sudo rm -fR /usr/local/*) and
 restart this script.  Press Enter to continue, Ctrl-C to abort...'

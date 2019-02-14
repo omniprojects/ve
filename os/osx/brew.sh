@@ -10,7 +10,7 @@ restart this script...  (Ctrl-C to abort)'
 sleep 10
 fi
 
-BREW="$(which brew)"
+BREW="$(readlink $(which brew))"
 
 # make sure we run as the user that installed brew
 BREW_USER="$(ls -ld $BREW | awk '{print $3}')"

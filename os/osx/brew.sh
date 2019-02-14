@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo chown -R $(id -u):$(id -g) /usr/local/* || true
-
 if [ "$(which brew)" == "" ]; then
 echo 'Installing homebrew...'
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -19,6 +17,8 @@ BREW_USER="$(ls -ld $BREW | awk '{print $3}')"
 if [ "$BREW_USER" != "$USER" ]; then
 BREW="sudo -i -u $BREW_USER $BREW"
 fi
+
+sudo chown -R $(id -u $BREW_USER):$(id -g $BREW_USER) /usr/local/* || true
 
 sudo xcodebuild -license accept || true
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer || true

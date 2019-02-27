@@ -7,20 +7,16 @@
 -e git+https://github.com/omniprojects/drf-extensions#egg=drf-extensions
 -e git+https://github.com/omniprojects/drf-tracking#egg=drf-tracking
 -e git+https://github.com/supervisor/Supervisor#egg=supervisor
-alembic==0.8.10           # via apache-airflow
 algoliasearch==1.17.0
 aniso8601==3.0.2          # via graphene
-apache-airflow==1.10.0
 apns2==0.4.1
 asn1crypto==0.24.0        # via cryptography
 atomicwrites==1.2.1       # via pytest
 attrs==18.2.0             # via pytest
 autopep8==1.4             # via django-silk
 awscli==1.16.18
-babel==2.6.0              # via flask-babel
 baker==1.3
 bcrypt==3.1.4
-bleach==2.1.2             # via apache-airflow
 blinker==1.4              # via gnsq
 boto3==1.9.4
 boto==2.48.0
@@ -31,18 +27,15 @@ cairosvg==2.2.1           # via weasyprint
 certifi==2018.8.24        # via python-intercom, requests, sentry-sdk
 cffi==1.11.5              # via bcrypt, cairocffi, cryptography, pynacl, weasyprint
 chardet==3.0.4            # via requests
-click==6.7                # via flask, flask-appbuilder, geocoder, pip-tools, rq
-colorama==0.3.9           # via awscli, flask-appbuilder
+click==6.7                # via flask, geocoder, pip-tools, rq
+colorama==0.3.9           # via awscli
 colorclass==2.2.0         # via linode-cli
-configparser==3.5.0       # via apache-airflow
 coreapi==2.3.3
 coreschema==0.0.4         # via coreapi
-croniter==0.3.25          # via apache-airflow
 cryptography==2.3.1       # via apns2
 cssselect2==0.2.1         # via cairosvg, weasyprint
 decorator==4.3.2          # via ratelim
-defusedxml==0.5.0         # via cairosvg, python3-openid
-dill==0.2.8.2             # via apache-airflow
+defusedxml==0.5.0         # via cairosvg
 django-after-response==0.2.2
 django-autoslug-iplweb==1.9.4
 django-ckeditor==5.6.1
@@ -57,33 +50,21 @@ django-silk==3.0.1
 django-storages==1.7.1
 django==2.1.1
 djangorestframework==3.8.2
-docutils==0.14            # via awscli, botocore, python-daemon
+docutils==0.14            # via awscli, botocore
 enum34==1.1.6             # via linode-cli
 first==2.0.1              # via pip-tools
-flask-admin==1.4.1        # via apache-airflow
-flask-appbuilder==1.11.1  # via apache-airflow
-flask-babel==0.11.1       # via flask-appbuilder
-flask-caching==1.3.3      # via apache-airflow
 flask-cors==3.0.7
 flask-graphql==2.0.0
-flask-login==0.2.11       # via apache-airflow, flask-appbuilder
 flask-mako==0.4
-flask-openid==1.2.5       # via flask-appbuilder
-flask-sqlalchemy==2.1     # via flask-appbuilder
-flask-swagger==0.2.13     # via apache-airflow
-flask-wtf==0.14.2         # via apache-airflow, flask-appbuilder
 flask==0.12.4
 freezegun==0.3.11
 frozendict==1.2           # via usaddress-scourgify
-funcsigs==1.0.0           # via apache-airflow
-future==0.16.0            # via apache-airflow, geocoder, usaddress
+future==0.16.0            # via geocoder, usaddress
 geocoder==1.38.1          # via usaddress-scourgify
 geographiclib==1.49       # via geopy
 geoip2==2.9.0
 geopy==1.17.0
 gevent==1.3.6
-gitdb2==2.0.4             # via gitpython
-gitpython==2.1.11         # via apache-airflow
 gnsq==0.4.0
 google-api-python-client==1.7.4
 google-auth-httplib2==0.0.3  # via google-api-python-client
@@ -95,39 +76,30 @@ graphql-core==2.1         # via flask-graphql, graphene, graphql-relay, graphql-
 graphql-relay==0.4.5      # via graphene
 graphql-server-core==1.1.1  # via flask-graphql
 greenlet==0.4.15          # via gevent
-gunicorn==19.9.0          # via apache-airflow
 h2==2.6.2                 # via hyper
 hpack==3.0.0              # via h2
-html5lib==1.0.1           # via bleach, weasyprint
+html5lib==1.0.1           # via weasyprint
 httplib2==0.11.3          # via google-api-python-client, google-auth-httplib2, oauth2client
 hyper==0.7.0              # via apns2
 hyperframe==3.2.0         # via h2, hyper
 idna==2.7                 # via cryptography, requests
 inflection==0.3.1         # via python-intercom
-iso8601==0.1.12           # via apache-airflow
 itsdangerous==0.24        # via flask
 itypes==1.1.0             # via coreapi
-jinja2==2.8.1             # via apache-airflow, coreschema, django-silk, flask, flask-babel, python-nvd3, salt
+jinja2==2.8.1             # via coreschema, django-silk, flask, salt
 jmespath==0.9.3           # via boto3, botocore
 linode-cli==2.0.10
-lockfile==0.12.2          # via python-daemon
-lxml==3.8.0               # via apache-airflow
 mako==1.0.7
-markdown==2.6.11          # via apache-airflow
 markupsafe==1.0           # via jinja2, mako, salt
 maxminddb==1.4.1          # via geoip2
 meld3==1.0.2
 mixpanel==4.3.2
-monotonic==1.5            # via tenacity
 more-itertools==5.0.0     # via pytest
 msgpack==0.5.6            # via salt
 numpy==1.15.1
 oauth2client==4.1.3
 opencv-python==3.4.3.18
-ordereddict==1.1          # via funcsigs
-pandas==0.23.4            # via apache-airflow
 pdfrw==0.4                # via weasyprint
-pendulum==1.4.4           # via apache-airflow
 pgpubsub==0.0.5
 phonenumbers==8.9.13
 pillow==5.3.0             # via cairosvg, qrcode
@@ -135,7 +107,6 @@ pip-tools==2.0.2
 pluggy==0.8.1             # via pytest
 probableparsing==0.0.1    # via usaddress
 promise==2.2.1            # via graphene, graphql-core, graphql-relay, graphql-server-core
-psutil==4.4.2             # via apache-airflow
 psycopg2==2.7.5
 py==1.7.0                 # via pytest
 pyasn1-modules==0.2.2     # via google-auth, oauth2client
@@ -151,17 +122,11 @@ pyphen==0.9.5             # via weasyprint
 pysocks==1.6.8            # via twilio
 pytest==4.1.1
 python-crfsuite==0.9.6    # via usaddress
-python-daemon==2.1.2      # via apache-airflow
 python-dateutil==2.7.3
-python-editor==1.0.3      # via alembic
 python-http-client==3.1.0  # via sendgrid
 python-intercom==3.1.0
 python-levenshtein==0.12.0
-python-nvd3==0.15.0       # via apache-airflow
-python-slugify==1.2.6     # via python-nvd3
-python3-openid==3.1.0     # via flask-openid
 pytz==2018.5
-pytzdata==2018.5          # via pendulum
 pyyaml==3.13
 pyzmq==17.1.2             # via salt
 qrcode[pil]==6.0
@@ -176,25 +141,17 @@ s3transfer==0.1.13        # via awscli, boto3
 salt==2018.3.2
 sendgrid==5.6.0
 sentry-sdk==0.6.5
-setproctitle==1.1.10      # via apache-airflow
-six==1.11.0               # via bcrypt, bleach, cryptography, flask-cors, freezegun, geocoder, gnsq, google-api-python-client, google-auth, graphene, graphene-file-upload, graphql-core, graphql-relay, html5lib, mixpanel, more-itertools, oauth2client, pip-tools, promise, pynacl, pytest, python-dateutil, python-intercom, qrcode, tenacity, thrift, twilio, unittest-xml-reporting, websocket-client
+six==1.11.0               # via bcrypt, cryptography, flask-cors, freezegun, geocoder, gnsq, google-api-python-client, google-auth, graphene, graphene-file-upload, graphql-core, graphql-relay, html5lib, mixpanel, more-itertools, oauth2client, pip-tools, promise, pynacl, pytest, python-dateutil, python-intercom, qrcode, twilio, unittest-xml-reporting, websocket-client
 slacker==0.9.65
-smmap2==2.0.4             # via gitdb2
-sqlalchemy==1.1.18        # via alembic, apache-airflow, flask-sqlalchemy
 sqlparse==0.2.4           # via django-silk
 stripe==2.8.1
-tabulate==0.7.7           # via apache-airflow
-tenacity==4.8.0           # via apache-airflow
 terminaltables==3.1.0     # via linode-cli
-thrift==0.11.0            # via apache-airflow
 tinycss2==0.6.1           # via cairosvg, cssselect2, weasyprint
 tornado==4.5.3            # via salt
 twilio==6.16.4
 typing==3.6.1             # via usaddress-scourgify, yaml-config
-tzlocal==1.5.1            # via apache-airflow, pendulum
 ua-parser==0.8.0
-unicodecsv==0.14.1        # via apache-airflow
-unidecode==1.0.22         # via django-facebook, python-slugify
+unidecode==1.0.22         # via django-facebook
 unittest-xml-reporting==2.2.0
 uritemplate==3.0.0        # via coreapi, google-api-python-client
 urllib3==1.23             # via botocore, gnsq, requests, sentry-sdk
@@ -204,7 +161,5 @@ virtualenv==16.0.0
 weasyprint==0.42.3
 webencodings==0.5.1       # via html5lib, tinycss2
 websocket-client==0.53.0
-werkzeug==0.14.1          # via apache-airflow, flask, flask-caching
-wtforms==2.2.1            # via flask-admin, flask-wtf
+werkzeug==0.14.1          # via flask
 yaml-config==0.1.1        # via usaddress-scourgify
-zope.deprecation==4.3.0   # via apache-airflow

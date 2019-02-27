@@ -8,6 +8,7 @@ bcrypt
 boto
 boto3
 coreapi
+croniter
 django-after-response
 django-autoslug-iplweb
 django-ckeditor

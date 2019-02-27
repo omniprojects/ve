@@ -76,6 +76,7 @@ graphql-core==2.1         # via flask-graphql, graphene, graphql-relay, graphql-
 graphql-relay==0.4.5      # via graphene
 graphql-server-core==1.1.1  # via flask-graphql
 greenlet==0.4.15          # via gevent
+gunicorn==19.9.0
 h2==2.6.2                 # via hyper
 hpack==3.0.0              # via h2
 html5lib==1.0.1           # via weasyprint

@@ -126,6 +126,7 @@ python-dateutil==2.7.3
 python-http-client==3.1.0  # via sendgrid
 python-intercom==3.1.0
 python-levenshtein==0.12.0
+python-slugify==2.0.1
 pytz==2018.5
 pyyaml==3.13
 pyzmq==17.1.2             # via salt
@@ -151,7 +152,7 @@ tornado==4.5.3            # via salt
 twilio==6.16.4
 typing==3.6.1             # via usaddress-scourgify, yaml-config
 ua-parser==0.8.0
-unidecode==1.0.22         # via django-facebook
+unidecode==1.0.22         # via django-facebook, python-slugify
 unittest-xml-reporting==2.2.0
 uritemplate==3.0.0        # via coreapi, google-api-python-client
 urllib3==1.23             # via botocore, gnsq, requests, sentry-sdk

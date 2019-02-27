@@ -52,6 +52,7 @@ pytest
 python-dateutil
 python-intercom
 python-Levenshtein
+python-slugify
 pytz
 pyyaml
 qrcode[pil]

@@ -47,6 +47,7 @@ opencv-python
 phonenumbers
 pgpubsub
 pip-tools
+pre-commit
 psycopg2
 pycups
 pygments

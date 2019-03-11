@@ -24,6 +24,7 @@ djangorestframework
 -e git+https://github.com/omniprojects/drf-extensions#egg=drf-extensions
 -e git+https://github.com/omniprojects/drf-tracking#egg=drf-tracking
 -e git+https://github.com/supervisor/Supervisor#egg=supervisor
+flake8
 flask
 flask-cors
 flask_graphql
@@ -38,6 +39,7 @@ google-api-python-client
 graphene
 graphene-file-upload
 gunicorn
+isort
 linode-cli
 mako
 mixpanel

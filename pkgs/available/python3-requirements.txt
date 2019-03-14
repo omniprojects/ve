@@ -76,6 +76,7 @@ gnsq==0.4.0
 google-api-python-client==1.7.4
 google-auth-httplib2==0.0.3  # via google-api-python-client
 google-auth==1.5.1        # via google-api-python-client, google-auth-httplib2
+googlemaps==3.0.2
 gprof2dot==2016.10.13     # via django-silk
 graphene-file-upload==1.2.2
 graphene==2.1.3

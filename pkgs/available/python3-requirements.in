@@ -36,6 +36,7 @@ gevent
 gitpython
 gnsq
 google-api-python-client
+googlemaps
 graphene
 graphene-file-upload
 gunicorn

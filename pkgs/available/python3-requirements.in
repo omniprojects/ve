@@ -41,6 +41,7 @@ graphene
 graphene-file-upload
 gunicorn
 isort
+jira
 linode-cli
 mako
 mixpanel

@@ -70,7 +70,6 @@ pango \
 pcre \
 pixman \
 pkgconfig \
-proj \
 readline \
 rsync \
 sqlite \

@@ -73,7 +73,6 @@ libpangocairo-1.0-0 \
 libpcap-dev \
 libpcre3-dev \
 libperl-dev \
-libproj-dev \
 libreadline-dev \
 libssl-dev \
 libsqlite3-dev \

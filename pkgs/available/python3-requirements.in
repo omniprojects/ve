@@ -52,7 +52,7 @@ phonenumbers
 pgpubsub
 pip-tools
 pre-commit
-psycopg2
+psycopg2 --no-binary psycopg2
 pycups
 pygments
 pynacl

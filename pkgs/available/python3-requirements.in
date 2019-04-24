@@ -42,6 +42,7 @@ graphene-file-upload
 gunicorn
 isort
 jira
+kount_ris_sdk
 linode-cli
 mako
 mixpanel

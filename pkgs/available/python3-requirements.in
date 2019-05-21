@@ -41,8 +41,8 @@ googlemaps
 graphene
 graphene-file-upload
 gunicorn
+ipython
 isort
-jira
 kount_ris_sdk
 linode-cli
 mako

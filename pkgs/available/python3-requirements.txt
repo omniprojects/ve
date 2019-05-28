@@ -170,6 +170,7 @@ rsa==3.4.2                # via awscli, google-auth, oauth2client
 rx==1.6.1                 # via graphql-core
 s3transfer==0.1.13        # via awscli, boto3
 salt==2018.3.2
+semantic-version==2.6.0
 sendgrid==5.6.0
 sentry-sdk==0.6.5
 six==1.11.0               # via bcrypt, cfgv, cryptography, flask-cors, freezegun, geocoder, gnsq, google-api-python-client, google-auth, graphene, graphene-file-upload, graphql-core, graphql-relay, html5lib, mixpanel, more-itertools, oauth2client, pip-tools, pre-commit, promise, prompt-toolkit, pynacl, pytest, python-dateutil, python-intercom, qrcode, traitlets, twilio, unittest-xml-reporting, websocket-client

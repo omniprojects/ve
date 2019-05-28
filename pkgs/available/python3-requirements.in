@@ -71,6 +71,7 @@ redis
 requests
 rq
 salt
+semantic_version
 sendgrid
 sentry-sdk
 slacker

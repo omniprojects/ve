@@ -1,4 +1,4 @@
-METABASE_VERSION="0.32.5"
+METABASE_VERSION="0.32.8"
 
 rm -fR $VENV/opt/metabase
 mkdir -p $VENV/opt/metabase

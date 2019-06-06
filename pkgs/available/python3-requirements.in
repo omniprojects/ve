@@ -59,6 +59,7 @@ pycups
 pygments
 pynacl
 pytest
+pytest-cov
 python-dateutil
 python-intercom
 python-Levenshtein

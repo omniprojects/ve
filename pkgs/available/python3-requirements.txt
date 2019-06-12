@@ -12,16 +12,18 @@
 algoliasearch==1.17.0
 aniso8601==3.0.2          # via graphene
 apns2==0.4.1
+appdirs==1.4.3            # via black
 asn1crypto==0.24.0        # via cryptography
 aspy.yaml==1.2.0          # via pre-commit
 atomicwrites==1.2.1       # via pytest
-attrs==18.2.0             # via pytest
+attrs==18.2.0             # via black, pytest
 autopep8==1.4             # via django-silk
 awscli==1.16.18
 backcall==0.1.0           # via ipython
 baker==1.3
 bcrypt==3.1.4
 berbix==0.0.6
+black==19.3b0
 blinker==1.4              # via gnsq
 boto3==1.9.4
 boto==2.48.0
@@ -33,7 +35,7 @@ certifi==2018.8.24        # via python-intercom, requests, sentry-sdk
 cffi==1.11.5              # via bcrypt, cairocffi, cryptography, pynacl, weasyprint
 cfgv==1.5.0               # via pre-commit
 chardet==3.0.4            # via requests
-click==6.7                # via flask, geocoder, pip-tools, rq
+click==6.7                # via black, flask, geocoder, pip-tools, rq
 colorama==0.3.9           # via awscli
 colorclass==2.2.0         # via linode-cli
 coreapi==2.3.3
@@ -182,7 +184,7 @@ sqlparse==0.2.4           # via django-silk
 stripe==2.8.1
 terminaltables==3.1.0     # via linode-cli
 tinycss2==0.6.1           # via cairosvg, cssselect2, weasyprint
-toml==0.10.0              # via pre-commit
+toml==0.10.0              # via black, pre-commit
 tornado==4.5.3            # via salt
 traitlets==4.3.2          # via ipython
 twilio==6.16.4

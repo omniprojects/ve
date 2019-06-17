@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$(which brew)" == "" ]; then
+if [ ! -e /usr/local/bin/brew ]; then
 echo 'Installing homebrew...'
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
@@ -10,7 +10,7 @@ restart this script...  (Ctrl-C to abort)'
 sleep 10
 fi
 
-BREW="$(readlink $(which brew))"
+BREW="$(readlink /usr/local/bin/brew)"
 
 # make sure we run as the user that installed brew
 BREW_USER="$(ls -ld $BREW | awk '{print $3}')"

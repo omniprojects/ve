@@ -13,7 +13,7 @@ MARCH="$(uname -m)"
 
 if [ "$(uname)" == "Darwin" ];then
     MOS="MacOS"
-    PROCS="$(sysctl -n hw.ncpu)"
+    PROCS="$(/usr/sbin/sysctl -n hw.ncpu)"
 elif [ "$(lsb_release -si)" == "Ubuntu" ]; then
     ver="$(lsb_release -sr)"
     if [ "$ver" != "16.04" ] && [ "$ver" != "18.04" ]; then

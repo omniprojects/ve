@@ -44,6 +44,7 @@ coverage==4.5.3           # via pytest-cov
 croniter==0.3.29
 cryptography==2.3.1       # via apns2
 cssselect2==0.2.1         # via cairosvg, weasyprint
+curlify==2.1.1            # via facebook-business
 decorator==4.3.2          # via ipython, ratelim, traitlets
 defusedxml==0.5.0         # via cairosvg
 django-after-response==0.2.2
@@ -63,6 +64,7 @@ djangorestframework==3.8.2
 docutils==0.14            # via awscli, botocore
 entrypoints==0.3          # via flake8
 enum34==1.1.6             # via linode-cli
+facebook-business==3.3.2
 first==2.0.1              # via pip-tools
 flake8==3.7.7
 flask-cors==3.0.7
@@ -177,7 +179,7 @@ salt==2019.2.0
 semantic-version==2.6.0
 sendgrid==5.6.0
 sentry-sdk==0.6.5
-six==1.11.0               # via bcrypt, cfgv, cryptography, flask-cors, freezegun, geocoder, gnsq, google-api-python-client, google-auth, graphene, graphene-file-upload, graphql-core, graphql-relay, html5lib, mixpanel, more-itertools, oauth2client, pip-tools, pre-commit, promise, prompt-toolkit, pynacl, pytest, python-dateutil, python-intercom, qrcode, traitlets, twilio, unittest-xml-reporting, websocket-client
+six==1.11.0               # via bcrypt, cfgv, cryptography, facebook-business, flask-cors, freezegun, geocoder, gnsq, google-api-python-client, google-auth, graphene, graphene-file-upload, graphql-core, graphql-relay, html5lib, mixpanel, more-itertools, oauth2client, pip-tools, pre-commit, promise, prompt-toolkit, pynacl, pytest, python-dateutil, python-intercom, qrcode, traitlets, twilio, unittest-xml-reporting, websocket-client
 slacker==0.9.65
 smmap2==2.0.5             # via gitdb2
 sqlparse==0.2.4           # via django-silk

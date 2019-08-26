@@ -6,8 +6,9 @@ cd nginx_upstream_check_module
 git checkout 9aecf15
 cd $BUILD_DIR
 
-#git clone https://github.com/zebrafishlabs/nginx-statsd.git   # dead repo
-git clone https://github.com/apcera/nginx-statsd
+# git clone https://github.com/zebrafishlabs/nginx-statsd.git   # dead repo
+# git clone https://github.com/apcera/nginx-statsd  # also dead
+git clone https://github.com/lindenlab/nginx-statsd.git
 cd nginx-statsd
 git checkout b970e40
 cd $BUILD_DIR

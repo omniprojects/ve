@@ -25,7 +25,6 @@ django_facebook
 djangorestframework
 -e git+https://github.com/omniprojects/drf-extensions#egg=drf-extensions
 -e git+https://github.com/omniprojects/drf-tracking#egg=drf-tracking
--e git+https://github.com/supervisor/Supervisor#egg=supervisor
 facebook_business
 flake8
 flask
@@ -80,6 +79,7 @@ sentry-sdk
 slackclient
 slacker
 stripe
+supervisor
 twilio
 ua_parser
 unittest-xml-reporting

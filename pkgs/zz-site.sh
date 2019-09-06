@@ -19,7 +19,7 @@ cp $SCRIPTPATH/data/postgresql/en_us.dict $VENV/share/postgresql/tsearch_data/en
 cp $SCRIPTPATH/data/postgresql/en_us.affix $VENV/share/postgresql/tsearch_data/en_us.affix
 
 # hax for broken salt - runas / cwd not working on osx
-cd $VENV/lib/python3.6/site-packages/salt/modules
+cd $VENV/lib/python3.?/site-packages/salt/modules
 patch -p0 <<EOF
 --- /Users/mattb/src/omni/om/cmdmod.py	2019-06-17 16:36:50.000000000 -0700
 +++ cmdmod.py	2019-06-17 16:36:53.000000000 -0700

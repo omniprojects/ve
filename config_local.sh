@@ -11,5 +11,9 @@ BUILD_DIR="$VENV/build"
 RSYNC_USER="ve"
 RSYNC_HOST="netops.omn1.io"
 
+SUBPATH="$(echo $BUILDKITE_BRANCH | tr '/' '-')"
+if [ "$SUBPATH" == "" ]; then
 SUBPATH="$(git rev-parse --abbrev-ref HEAD | tr '/' '-')"
+fi
+
 RSYNC_PATH="ve/$SUBPATH"

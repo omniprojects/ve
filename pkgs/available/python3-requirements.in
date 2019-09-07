@@ -6,6 +6,7 @@ black
 boto
 boto3
 croniter
+cryptography
 facebook_business
 flake8
 flask

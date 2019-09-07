@@ -10,4 +10,6 @@ BUILD_DIR="$VENV/build"
 # remote rsync for push/pull
 RSYNC_USER="ve"
 RSYNC_HOST="netops.omn1.io"
-RSYNC_PATH="ve"
+
+SUBPATH="$(git rev-parse --abbrev-ref HEAD | tr '/' '-')"
+RSYNC_PATH="ve/$SUBPATH"

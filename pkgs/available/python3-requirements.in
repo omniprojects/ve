@@ -1,30 +1,11 @@
 awscli
-Django
-PyJWT
-algoliasearch
-apns2
 baker
 bcrypt
 berbix
 black
 boto
 boto3
-coreapi
 croniter
-django-after-response
-django-autoslug-iplweb
-django-ckeditor
-django-constance
-django-cors-headers
-django-filter
-django-ipware
-django-redis
-django-silk
-django-storages
-django_facebook
-djangorestframework
--e git+https://github.com/omniprojects/drf-extensions#egg=drf-extensions
--e git+https://github.com/omniprojects/drf-tracking#egg=drf-tracking
 facebook_business
 flake8
 flask
@@ -33,7 +14,6 @@ flask_graphql
 flask_mako
 freezegun
 geoip2
-geopy
 gevent
 gitpython
 gnsq
@@ -47,28 +27,21 @@ isort
 kount_ris_sdk
 linode-cli
 mako
-mixpanel
 numpy
 oauth2client
-opencv-python
 phonenumbers
-pgpubsub
 pip-tools
 pre-commit
 psycopg2 --no-binary psycopg2
 pycups
-pygments
 pynacl
 pytest
 pytest-cov
 python-dateutil
-python-intercom
-python-Levenshtein
 python-slugify
 pytz
 pyyaml
 qrcode[pil]
-raven
 redis
 requests
 rq
@@ -82,7 +55,6 @@ stripe
 supervisor
 twilio
 ua_parser
-unittest-xml-reporting
 usaddress
 usaddress-scourgify
 virtualenv

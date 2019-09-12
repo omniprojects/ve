@@ -46,8 +46,10 @@ gunicorn
 ipython
 isort
 kount_ris_sdk
+libnacl
 linode-cli
 mako
+meld3      # needed by old versions of supervisor
 mixpanel
 numpy
 oauth2client

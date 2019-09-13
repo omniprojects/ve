@@ -75,6 +75,7 @@ libpcre3-dev \
 libperl-dev \
 libproj-dev \
 libreadline-dev \
+libsodium-dev \
 libssl-dev \
 libsqlite3-dev \
 libuuid1 \

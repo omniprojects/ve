@@ -60,6 +60,7 @@ libjpeg \
 libmagic \
 libpcap \
 libpng \
+libsodium \
 libtool \
 libxml2 \
 make \

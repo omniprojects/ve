@@ -26,6 +26,7 @@ gunicorn
 ipython
 isort
 kount_ris_sdk
+libnacl
 linode-cli
 mako
 numpy

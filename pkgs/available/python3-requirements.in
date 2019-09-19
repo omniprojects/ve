@@ -39,6 +39,7 @@ pycups
 pynacl
 pytest
 pytest-cov
+pytest-xdist
 python-dateutil
 python-slugify
 pytz
